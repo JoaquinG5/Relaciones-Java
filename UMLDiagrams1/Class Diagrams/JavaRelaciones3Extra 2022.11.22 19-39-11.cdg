@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="JavaRelaciones3Extra">
+  <ClassDiagramComponents>
+    <Class name="Vehiculo" package="ClaseAuto" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="marca" type="String" visibility="private"/>
+        <Field name="modelo" type="String" visibility="private"/>
+        <Field name="numeroMotor" type="Integer" visibility="private"/>
+        <Field name="chasis" type="String" visibility="private"/>
+        <Field name="anio" type="Integer" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="tipo" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="marca"/>
+          <Argument type="String" name="modelo"/>
+          <Argument type="Integer" name="numeroMotor"/>
+          <Argument type="String" name="chasis"/>
+          <Argument type="Integer" name="anio"/>
+          <Argument type="String" name="color"/>
+          <Argument type="String" name="tipo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getMarca" returnType="String" visibility="public"/>
+        <Method name="setMarca" returnType="void" visibility="public">
+          <Argument type="String" name="marca"/>
+        </Method>
+        <Method name="getModelo" returnType="String" visibility="public"/>
+        <Method name="setModelo" returnType="void" visibility="public">
+          <Argument type="String" name="modelo"/>
+        </Method>
+        <Method name="getNumeroMotor" returnType="Integer" visibility="public"/>
+        <Method name="setNumeroMotor" returnType="void" visibility="public">
+          <Argument type="Integer" name="numeroMotor"/>
+        </Method>
+        <Method name="getChasis" returnType="String" visibility="public"/>
+        <Method name="setChasis" returnType="void" visibility="public">
+          <Argument type="String" name="chasis"/>
+        </Method>
+        <Method name="getAnio" returnType="Integer" visibility="public"/>
+        <Method name="setAnio" returnType="void" visibility="public">
+          <Argument type="Integer" name="anio"/>
+        </Method>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="setColor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+        <Method name="getTipo" returnType="String" visibility="public"/>
+        <Method name="setTipo" returnType="void" visibility="public">
+          <Argument type="String" name="tipo"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Cliente" package="ClaseCliente" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="apellido" type="String" visibility="private"/>
+        <Field name="documento" type="double" visibility="private"/>
+        <Field name="mail" type="String" visibility="private"/>
+        <Field name="domicilio" type="String" visibility="private"/>
+        <Field name="telefono" type="Integer" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="apellido"/>
+          <Argument type="double" name="documento"/>
+          <Argument type="String" name="mail"/>
+          <Argument type="String" name="domicilio"/>
+          <Argument type="Integer" name="telefono"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getApellido" returnType="String" visibility="public"/>
+        <Method name="setApellido" returnType="void" visibility="public">
+          <Argument type="String" name="apellido"/>
+        </Method>
+        <Method name="getDocumento" returnType="double" visibility="public"/>
+        <Method name="setDocumento" returnType="void" visibility="public">
+          <Argument type="double" name="documento"/>
+        </Method>
+        <Method name="getMail" returnType="String" visibility="public"/>
+        <Method name="setMail" returnType="void" visibility="public">
+          <Argument type="String" name="mail"/>
+        </Method>
+        <Method name="getDomicilio" returnType="String" visibility="public"/>
+        <Method name="setDomicilio" returnType="void" visibility="public">
+          <Argument type="String" name="domicilio"/>
+        </Method>
+        <Method name="getTelefono" returnType="Integer" visibility="public"/>
+        <Method name="setTelefono" returnType="void" visibility="public">
+          <Argument type="Integer" name="telefono"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Entidad" package="ClaseEntidad" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="CuotasPoliza" package="ClasePoliza" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="numeroCuota" type="Integer" visibility="private"/>
+        <Field name="montoTotalCuota" type="double" visibility="private"/>
+        <Field name="formaDePago" type="String" visibility="private"/>
+        <Field name="fechaDeVencimiento" type="Integer" visibility="private"/>
+        <Field name="estadoPago" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="Integer" name="numeroCuota"/>
+          <Argument type="double" name="montoTotalCuota"/>
+          <Argument type="String" name="formaDePago"/>
+          <Argument type="Integer" name="fechaDeVencimiento"/>
+          <Argument type="String" name="estadoPago"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setNumeroCuota" returnType="void" visibility="public">
+          <Argument type="Integer" name="numeroCuota"/>
+        </Method>
+        <Method name="setMontoTotalCuota" returnType="void" visibility="public">
+          <Argument type="double" name="montoTotalCuota"/>
+        </Method>
+        <Method name="setFormaDePago" returnType="void" visibility="public">
+          <Argument type="String" name="formaDePago"/>
+        </Method>
+        <Method name="setFechaDeVencimiento" returnType="void" visibility="public">
+          <Argument type="Integer" name="fechaDeVencimiento"/>
+        </Method>
+        <Method name="setEstadoPago" returnType="void" visibility="public">
+          <Argument type="String" name="revisionPago"/>
+        </Method>
+        <Method name="getNumeroCuota" returnType="Integer" visibility="public"/>
+        <Method name="getMontoTotalCuota" returnType="double" visibility="public"/>
+        <Method name="getFormaDePago" returnType="String" visibility="public"/>
+        <Method name="getFechaDeVencimiento" returnType="Integer" visibility="public"/>
+        <Method name="getEstadoPago" returnType="String" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Poliza" package="ClasePoliza" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="numeroPoliza" type="Integer" visibility="private"/>
+        <Field name="fechaInicioPoliza" type="String" visibility="private"/>
+        <Field name="fechaFinPoliza" type="String" visibility="private"/>
+        <Field name="cantidadCuotas" type="Integer" visibility="private"/>
+        <Field name="montoTotalAsegurado" type="double" visibility="private"/>
+        <Field name="formaPago" type="String" visibility="private"/>
+        <Field name="tipoCobertura" type="String" visibility="private"/>
+        <Field name="granizo" type="String" visibility="private"/>
+        <Field name="montoMaximoGranizo" type="Integer" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="Integer" name="numeroPoliza"/>
+          <Argument type="String" name="fechaInicioPoliza"/>
+          <Argument type="String" name="fechaFinPoliza"/>
+          <Argument type="Integer" name="cantidadCuotas"/>
+          <Argument type="double" name="montoTotalAsegurado"/>
+          <Argument type="String" name="formaPago"/>
+          <Argument type="String" name="tipoCobertura"/>
+          <Argument type="String" name="granizo"/>
+          <Argument type="Integer" name="montoMaximoGranizo"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getNumeroPoliza" returnType="Integer" visibility="public"/>
+        <Method name="setNumeroPoliza" returnType="void" visibility="public">
+          <Argument type="Integer" name="numeroPoliza"/>
+        </Method>
+        <Method name="getFechaInicioPoliza" returnType="String" visibility="public"/>
+        <Method name="setFechaInicioPoliza" returnType="void" visibility="public">
+          <Argument type="String" name="fechaInicioPoliza"/>
+        </Method>
+        <Method name="getFechaFinPoliza" returnType="String" visibility="public"/>
+        <Method name="setFechaFinPoliza" returnType="void" visibility="public">
+          <Argument type="String" name="fechaFinPoliza"/>
+        </Method>
+        <Method name="getCantidadCuotas" returnType="Integer" visibility="public"/>
+        <Method name="setCantidadCuotas" returnType="void" visibility="public">
+          <Argument type="Integer" name="cantidadCuotas"/>
+        </Method>
+        <Method name="getMontoTotalAsegurado" returnType="double" visibility="public"/>
+        <Method name="setMontoTotalAsegurado" returnType="void" visibility="public">
+          <Argument type="double" name="montoTotalAsegurado"/>
+        </Method>
+        <Method name="getFormaPago" returnType="String" visibility="public"/>
+        <Method name="setFormaPago" returnType="void" visibility="public">
+          <Argument type="String" name="formaPago"/>
+        </Method>
+        <Method name="getTipoCobertura" returnType="String" visibility="public"/>
+        <Method name="setTipoCobertura" returnType="void" visibility="public">
+          <Argument type="String" name="tipoCobertura"/>
+        </Method>
+        <Method name="getGranizo" returnType="String" visibility="public"/>
+        <Method name="setGranizo" returnType="void" visibility="public">
+          <Argument type="String" name="granizo"/>
+        </Method>
+        <Method name="getMontoMaximoGranizo" returnType="Integer" visibility="public"/>
+        <Method name="setMontoMaximoGranizo" returnType="void" visibility="public">
+          <Argument type="Integer" name="montoMaximoGranizo"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Servicio" package="ClaseServicio" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="JavaRelaciones3Extra" package="javarelaciones3extra" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
